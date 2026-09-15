@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A, B, diferencia;
+
+    cin >> A;
+    cin >> B;
+
+    if (A > B) {
+        diferencia = A - B;
+        cout << "El negocio si va a jalar" << endl;
+        cout << diferencia << endl;
+    } else {
+        diferencia = B - A;
+        cout << "Dejalo ya esta muerto" << endl;
+        cout << diferencia << endl;
+    }
+
+    return 0;
+}
