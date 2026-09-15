@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, m, a;
+
+    cin >> n >> m >> a;
+
+    if (n != m && n != a && m != a) {
+        cout << "ELLA NO TE AMA";
+    } else {
+        cout << "ELLA TE AMA";
+    }
+
+    return 0;
+}
